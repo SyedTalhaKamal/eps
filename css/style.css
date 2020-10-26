@@ -1,0 +1,438 @@
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike,strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,time, mark, audio, video {
+  margin: 0;padding: 0;border: 0;font-size: 100%;font: inherit;vertical-align: baseline;}article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;}body {	line-height: 1;}ol, ul {	list-style: none;}blockquote, q {	quotes: none;}blockquote:before, blockquote:after,q:before, q:after {	content: '';	content: none;}table {	border-collapse: collapse;	border-spacing: 0;}
+ /* ======================= Global =========================================== */
+body{font-family: 'Poppins', sans-serif;}
+.section-padding{
+  padding: 80px 0;
+}
+.main-heading{
+  font-size: 38px;
+  font-weight: 700;
+}
+.colorblue{
+  color: #2e4197;
+}
+.colorcyan{
+  color: #2893d1;
+}
+.sub-heading{
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 25px;
+}
+.colorwhite{
+  color: white;
+}
+.colorgrey{
+  color: #666666;
+}
+ /* ======================= Global End =========================================== */
+/* ======================= Banner =========================================== */
+.banner-text{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 230px;
+}
+.banner-text h2,.banner-text p{
+  font-size: 16px;
+}
+.banner-text p{
+  width: 67%;
+  line-height: 27px;
+}
+.banner-text h1{
+  font-size: 54px;
+  font-weight: 700;
+  margin: 0px 0 35px 0;
+}
+.banner span{
+  font-size: 36px;
+}
+/* ======================= BannerEnd =========================================== */
+/* ======================= Products =========================================== */
+.products-p1{
+  font-size: 16px;
+  width: 35%;
+  margin: 0 auto;
+  margin-top: 25px;
+  line-height: 22px;
+}
+.coloroverlay{
+  background-color: rgba(48, 131, 181, 0.8);
+}
+.mask.flex-center.coloroverlay {
+  width: 90%;
+  height: 90%;
+  margin: auto;
+}
+.overlaybtn{
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  border-radius: 25px;
+  padding: 17px 35px;
+  font-size: 16px;
+  font-family: 'Karla', sans-serif;
+}
+.products h3{
+  margin: 50px 0 20px 0;
+}
+.productsp2{
+  font-size: 14px;
+  width: 43%;
+  margin: 0 auto;
+  line-height: 20px;
+}
+.product-row{
+  margin-top: 60px;
+}
+.productbtn{
+  color: white;
+  font-size: 16px;
+  font-family: 'Karla', sans-serif;
+  border: none;
+  padding: 15px 20px;
+  border-radius: 25px;
+  margin-top: 80px;
+  background: -moz-linear-gradient(left,  #2b67b1 0%, #26a8e0 100%); 
+  background: -webkit-linear-gradient(left,  #2b67b1 0%,#26a8e0 100%); 
+  background: linear-gradient(to right,  #2b67b1 0%,#26a8e0 100%); 
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2b67b1', endColorstr='#26a8e0',GradientType=1 );
+}
+.productbtn:hover{
+background: #26a8e0;
+background: -moz-linear-gradient(left,  #26a8e0 0%, #2b67b1 100%);
+background: -webkit-linear-gradient(left,  #26a8e0 0%,#2b67b1 100%);
+background: linear-gradient(to right,  #26a8e0 0%,#2b67b1 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#26a8e0', endColorstr='#2b67b1',GradientType=1 );
+
+}
+.productbtn:focus,.overlaybtn:focus,.cartbtn:focus {
+  outline: none;
+}
+/* ======================= Products End =========================================== */
+/* ======================= serve =========================================== */
+.serve{
+  background-color: #2893d1;
+}
+.serve-slider .item{
+  margin-top: 60px;
+  padding: 47px 0 60px 0;
+
+}
+.serve-slider .item:hover{
+  background-color: #2289c4;
+  margin-top: 60px;
+  padding: 47px 0 60px 0;
+  transition: 0.5s ease-in-out;
+}
+.serve-img{
+  object-fit: contain;
+  object-position: center;
+  background-color: white;
+  padding: 50px;
+  border-radius: 100%;
+  width: initial !important;
+  display: inline-block !important;
+}
+.serve h3{
+  margin: 35px 0 30px 0; 
+}
+.servep2{
+  font-size: 14px;
+  line-height: 25px;  
+  width: 71%;
+  margin: 0 auto;
+}
+.owl-nav{
+  font-size: 50px;
+}
+.owl-next:focus,.owl-prev:focus{
+  outline: none;
+  border: none;
+}
+.owl-next:hover,.owl-prev:hover{
+  background-color: transparent !important;
+}
+.serve-slider .owl-next{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: -50px;
+}
+.serve-slider .owl-prev{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: -50px;
+}
+.owl-dots{
+  display: none;
+}
+/* ======================= serve End =========================================== */
+/* ======================= brand =========================================== */
+.brand{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.brand img{
+  width: 133px;
+  height: 71px;
+  object-fit: contain;
+  object-position: center;
+  margin: 5px 0;
+}
+/* ======================= brand End =========================================== */
+/* ======================= our =========================================== */
+.our{
+  background-color: #ededed;
+}
+.our-img-div{
+  margin-top: 60px;
+  padding: 70px 55px;
+  background-color: white;
+}
+.our-img{
+  object-fit: contain;
+  object-position: center;
+  width: 150px !important;
+  height: 126px !important;
+  display: inline-block !important;
+}
+.our h3{
+  text-transform: uppercase;
+  margin: 35px auto 30px auto;
+  width: 80%;
+}
+.ourp2{
+  font-size: 14px;
+  line-height: 25px;
+}
+.cartbtn{
+  color: white;
+  font-size: 16px;
+  font-family: 'Karla', sans-serif;
+  background-color: #2e4197;
+  border: none;
+  padding: 15px 40px;
+  border-radius: 25px;
+  margin-top: 32px;
+}
+.cartbtn:hover{
+background: #2b67b1; 
+background: -moz-linear-gradient(left,  #2b67b1 0%, #26a8e0 100%);
+background: -webkit-linear-gradient(left,  #2b67b1 0%,#26a8e0 100%); 
+background: linear-gradient(to right,  #2b67b1 0%,#26a8e0 100%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2b67b1', endColorstr='#26a8e0',GradientType=1 );
+}
+.our-slider .owl-next{
+  color: white !important;
+  position: absolute;
+  top: 27%;
+  transform: translateY(-27%);
+  right: -33px;
+}
+.our-slider .owl-prev{
+  color: white;
+  position: absolute;
+  top: 27%;
+  transform: translateY(-27%);
+  left: -33px;
+}
+/* ======================= our End =========================================== */
+/* ======================= testimonial =========================================== */
+.testimonial{
+  background-image: url('../images/testimonial-back.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.testimonial-div:after{  
+  content: url('../images/testimonial-text-back.png');
+  position: absolute;
+  bottom: -41px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+.testimonial-div{
+  position: relative;
+  background-color: white;
+  width: 43%;
+  margin: 0 auto;
+  padding: 0 130px 50px 130px;
+  border: 0.5px solid #dddddd;
+}
+.testimonialimg{
+  color: white;
+background: #2b6ab3;
+background: -moz-linear-gradient(-45deg,  #2b6ab3 0%, #26a3dc 100%);
+background: -webkit-linear-gradient(-45deg,  #2b6ab3 0%,#26a3dc 100%);
+background: linear-gradient(135deg,  #2b6ab3 0%,#26a3dc 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2b6ab3', endColorstr='#26a3dc',GradientType=1 );
+width: 50px;
+margin: auto;
+padding: 11px;
+
+}
+.testimonial h3{
+  font-size: 20px;
+  margin-top: 42px;
+}
+.testimonialp2{
+  margin-top: 35px;
+  line-height: 22px;
+  font-style: italic;
+}
+.testimonial h4{
+  color: black;
+  font-size: 14px;
+  margin-top: 8px;
+  font-weight: 500;
+}
+.testimonial-slider .item img{
+  width: 40px;
+  margin: 0 auto;
+}
+i.fas.fa-quote-left {
+  font-size: 13px;
+}
+/* ======================= testimonial End =========================================== */
+/* ======================= Media Queries =========================================== */
+@media(max-width:1199px){
+  .banner-text{
+    left: 110px;
+  }
+  .products-p1 {
+    width: 54%;
+    }
+    .productsp2 {
+      width: 86%;
+    }
+    .productbtn{
+      margin-top: 40px;
+    }
+    .serve-slider .owl-next{
+      right: -20px;
+    }
+    .serve-slider .owl-prev{
+      left: -20px;
+    }
+    .testimonial-div{
+      width: 68%;
+    }
+}
+@media(max-width:991px){
+  .section-padding {
+    padding: 25px 0;
+}
+.main-heading {
+  font-size: 35px;
+}
+.banner-text {
+  left: 60px;
+}
+.products-p1 {
+  margin-top: 10px;
+}
+.product-row {
+  margin-top: 20px;
+}
+.products h3 {
+  margin: 25px 0 10px 0;
+}
+.productbtn{
+  margin-top: 20px;
+}
+.serve-slider .item,.serve-slider .item:hover,.our-img-div {
+  margin-top: 15px;
+}
+.serve h3{
+  margin: 15px 0;
+}
+.servep2{ 
+  width: 100%;
+}
+.owl-dots{
+  display: initial;
+}
+.owl-dots:focus{
+  outline: none;
+  border: none;
+}
+.owl-nav{
+  display: none;
+}
+.serve-slider.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+  background: transparent;
+  border: 1px solid white;
+}
+.our-slider.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+  background-color: #2e4197 !important;
+  border: none !important;
+}
+.our h3 {
+  margin: 15px auto;
+}
+.ourp2 {
+  line-height: 18px;
+}
+.cartbtn{
+  margin: 7px 0 14px 0;
+}
+.testimonial-div{
+  padding: 0 30px 50px 30px;
+  width: 96%;
+}
+}
+@media(max-width:767px){
+  .section-padding {
+    padding: 30px 0;
+}
+.main-heading {
+  font-size: 30px;
+}
+.banner-text h1 {
+  font-size: 32px;
+  margin: 8px 0;
+}
+.banner span{
+  font-size: 25px;
+}
+.banner-text p {
+  width: 88%;
+}
+.products-p1 {
+  width: 100%;
+  }
+  .productsp2 {
+    width: 100%;
+  }
+}
+@media(max-width:480px){
+  .section-padding {
+    padding: 20px 0;
+}
+.main-heading {
+  font-size: 25px;
+}
+.banner-text {
+  left: 12px;
+}
+.banner span{
+  font-size: 15px;
+}
+.banner-text h1 {
+  font-size: 17px;
+}
+.banner-text p {
+  width: 100%;
+  line-height: 14px;
+}
+.banner-text h2,.banner-text p{
+  font-size: 14px;
+}
+}
